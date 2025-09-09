@@ -4,28 +4,25 @@
 
 ---
 
-## Table of Contents
-- [Overview](#overview)
-- [Contents](#contents)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-  - [Jupyter Notebook](#jupyter-notebook)
-  - [Power BI Dashboard](#power-bi-dashboard)
-- [Dataset](#dataset)
-- [Analysis Summary](#analysis-summary)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+## Problem Statement
+Build a complete real estate analytics solution using Python for advanced data cleaning, load the refined dataset into a SQL database, and use Power BI to directly connect to SQL and build a dashboard. The goal is to replicate a real-world enterprise-level data pipeline and analysis environment using a complex housing dataset with 1,00,000+ records.
 
 ---
 
 ## Overview
-This repository delivers a comprehensive sales analysis of luxury housing in Bengaluru. It includes:
-- A Jupyter Notebook performing exploratory data analysis, visualizations, and insights.
-- A Power BI dashboard for interactive exploration and presentation.
-- The raw dataset used for the analysis.
+
+Raw datasets often contain missing values, duplicates, inconsistent formatting, and outliers.  
+This project demonstrates systematic **data cleaning and preprocessing** techniques to transform messy data into a reliable and structured format ready for analysis through Power BI.
+
+---
+
+## Objectives
+- Handle **missing values** (imputation with mean/median/mode, group-based filling).
+- Remove **duplicates** and irrelevant data.
+- Standardize **date and numeric formats**.
+- Correct **inconsistent text entries** (case formatting, stripping whitespace, removing special characters).
+- Detect and handle **outliers**.
+- Ensure the dataset is ready for **exploratory data analysis (EDA)** or **machine learning pipelines**.
 
 ---
 
@@ -38,16 +35,21 @@ This repository delivers a comprehensive sales analysis of luxury housing in Ben
 
 ---
 
-## Getting Started
+## Libraries/Modules needed for the project!
+  - Pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - psycopg2
 
-### Prerequisites
-- Python 3.x
-- Jupyter Notebook or JupyterLab
-- Required Python packages:
-  ```bash
-  pandas
-  numpy
-  matplotlib
-  seaborn
+---
+
+# Workflow
+
+---
+
+
+
+---
 # Luxury-Housing-Sales-Analysis-Bengaluru
 Sales Analysis Dashboard for a Luxurious House - Bangaluru
