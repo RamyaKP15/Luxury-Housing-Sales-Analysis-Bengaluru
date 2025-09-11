@@ -44,9 +44,43 @@ This project demonstrates systematic **data cleaning and preprocessing** techniq
 
 ---
 
-# Workflow
-
+## Data Cleaning Steps
+1. **Data Inspection**
+   - Shape of the dataset, column data types, missing values summary
+2. **Handling Missing Data**
+   - Drop or impute missing values
+   - Group-based mean/median filling
+3. **Removing Duplicates**
+   - Identify and drop duplicate rows
+4. **Standardization**
+   - Convert date columns to standard format
+   - Ensure numeric columns are in proper data type
+   - Normalize categorical text (case, spacing, spelling corrections)
+5. **Outlier Detection**
+   - Using IQR or z-score
+   - Decide whether to cap, transform, or remove
+6. **Export**
+   - Save cleaned dataset for downstream use
+     
 ---
+## Import Cleaned data to SQL For future analysis
+1. **Schema**
+    - Create appropriate Schema for the dataframe to store the cleaned data 
+2. **Insert**
+    -  Insert the data to the created table
+3. **Validate**
+    - Execute basic queries and check the data
+    
+---
+
+## Power BI Analysis
+  Load the data and create chars,Map,KPI as per the data available for analysis and insights.
+  
+  <img width="1327" height="746" alt="Market Dashboard" src="https://github.com/user-attachments/assets/14f30594-849d-4343-abe5-9556fb9e9b45" />
+
+  <img width="1320" height="737" alt="Buyer_trend" src="https://github.com/user-attachments/assets/2bcafdfe-e884-4983-8833-051ccadc4ce9" />
+
+  <img width="1312" height="737" alt="Buyer Feedback on Sales channel" src="https://github.com/user-attachments/assets/c080b0bb-f7c2-4e92-80f9-6f2ecfaeacf7" />
 
 
 
