@@ -82,8 +82,65 @@ This project demonstrates systematic **data cleaning and preprocessing** techniq
 
   <img width="1312" height="737" alt="Buyer Feedback on Sales channel" src="https://github.com/user-attachments/assets/c080b0bb-f7c2-4e92-80f9-6f2ecfaeacf7" />
 
+---
 
+## 🔑 Key Insights  
+
+
+### 1. Builder Performance  
+- **Top Performers (≈117K):** Prestige, L&T Realty, Total Environment.  
+- **Strong Competitors (≈115–116K):** Sobha, RMZ, Puravankara, SNN Raj, Brigade.  
+- **Observation:** Builder competition is **very tight**, with marginal differences in performance.
+
+### 2. Market Trends & Booking Conversion  
+- Inner-city premium micro-markets (Koramangala, Indiranagar, Jayanagar) show **higher booking conversion (~51–52%)**.  
+- Peripheral markets (Domlur, Bellary Road) show **lower conversion (~47–48%)**.  
+- Indicates **location-driven buyer confidence** in prime areas.  
+
+### 3. Configuration Demand  
+- Demand is **evenly split**:  
+  - 3BHK: 33.38%  
+  - 4BHK: 33.54%  
+  - 5BHK+: 33.09%  
+- Developers should maintain **diverse inventory** to meet balanced demand.  
+
+### 4. Buyer Segments & Possession Status  
+- Buyer types (CXO, HNI, NRI, Startup Founders, Others) are **evenly distributed** across all possession stages.  
+- **No strong bias** towards Launch, Ready-to-Move, or Under-Construction projects.  
+
+### 5. Sales Channel Efficiency  
+- All four channels (Broker, Direct, NRI Desk, Online) perform **almost equally (~25K each)**.  
+- No single channel dominates → A balanced multi-channel strategy works best.  
+
+### 6. Buyer Feedback – Across Sales Channels  
+- **Positive Drivers:** Excellent location, amenities, and great views are consistent pull factors.  
+- **Pain Points:** Agent responsiveness, connectivity, and office distance remain common concerns.  
+- **Observation:** “No Comments” dominates feedback, suggesting limited customer engagement post-visit.  
 
 ---
-# Luxury-Housing-Sales-Analysis-Bengaluru
-Sales Analysis Dashboard for a Luxurious House - Bangaluru
+
+## 📊 Dashboards & Visuals  
+1. **Feedback Analysis:** Buyer sentiments across channels and possession stages.  
+2. **Sales Efficiency:** NRI vs Non-NRI performance across channels.  
+3. **Configuration Mix:** Demand split for 3BHK/4BHK/5BHK+.  
+4. **Market Trends:** Quarterly performance by micro-market.  
+5. **Builder Performance:** Quarterly contribution and sales ranking.  
+
+---
+
+## 🚀 Conclusion  
+- Buyers value **location, amenities, and views** most when purchasing luxury homes.  
+- Sales channels are equally efficient, so balanced investment across all is optimal.  
+- Demand is **spread across multiple configurations** → developers must diversify offerings.  
+- Premium zones like Koramangala & Indiranagar achieve **faster sales conversions**.  
+- Competition among top builders is **very close**, highlighting the need for differentiation through customer service and amenities.  
+
+---
+
+## 📌 How to Use  
+1. Download and install **Power BI Desktop**.  
+2. Clone this repository or download the `.pbix` file.  
+3. Open the file in Power BI Desktop.  
+4. Explore interactive dashboards (filters, slicers, micro-market comparisons).  
+
+---
